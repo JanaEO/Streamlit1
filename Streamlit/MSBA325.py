@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.title("Netflix Subscription Fees Across Different Countries")
-data=pd.read_csv('/Users/janaaloud/Desktop/Netflix subscription fee Dec-2021.csv')
+data=pd.read_csv('https://raw.githubusercontent.com/JanaEO/Streamlit1/main/Streamlit/Netflix%20subscription%20fee%20Dec-2021.csv')
 data.head()
 
 st.image('https://logowik.com/content/uploads/images/750_netflix.jpg')
